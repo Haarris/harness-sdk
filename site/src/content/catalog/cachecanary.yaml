@@ -1,0 +1,9 @@
+name: cachecanary
+description: "Finds why Claude prompt caching misses on Amazon Bedrock in Strands agents: checks requests in CI, explains each miss, and reports hit rates from logs."
+integrationType: observability
+languages:
+  python:
+    package: cachecanary
+github: https://github.com/Haarris/cachecanary
+docsUrl: https://cachecanary.com/strands/
+addedDate: 2026-10-12
